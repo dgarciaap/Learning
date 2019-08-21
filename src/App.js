@@ -32,7 +32,7 @@ function App() {
         <div className="app">
           {/*We use parenthesis (arrow function) instead of curly braces bc we want to return JSX */}
             {users.map(user => (
-              //We get the name property from Tweet.js 
+              //We get the name property from Tweet.js and state
               <Tweet name={user.name} message={user.message}/>
             ))}
         </div>
